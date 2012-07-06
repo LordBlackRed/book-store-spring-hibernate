@@ -1,0 +1,595 @@
+/*
+CSS Credit: http://www.templatemo.com/
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+	font-family: Verdana, Arial, san-serif;
+	font-size: 11px;
+	color: #ffffff;
+	background: #4b4743;
+}
+
+a:link, a:visited { color: #e6e154; text-decoration: none; font-weight: bold;} 
+a:active, a:hover { color: #e6e154; text-decoration: underline;}
+
+p {
+	margin: 0px;
+	padding: 0px;
+}
+
+img {
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+
+
+.cleaner {
+	clear: both;
+	width: 100%;
+	height: 1px;
+	font-size: 1px;	
+}
+
+.cleaner_with_height {
+	clear: both;
+	width: 100%;
+	height: 30px;
+	font-size: 1px;	
+}
+
+.cleaner_with_width {
+	float: left;
+	width: 20px;
+	height: 30px;
+	font-size: 1px;	
+}
+
+.buy_now_button a{
+	clear: both;
+	text-align: center;
+	display: block;
+	width: 100px;
+	padding: 4px 0 5px 0;
+	margin-bottom: 10px; 
+	background: url(images/templatemo_btn_02.jpg) no-repeat;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.detail_button a{
+	clear: both;
+	text-align: center;
+	display: block;
+	width: 100px;
+	padding: 4px 0 5px 0;
+	margin-bottom: 10px; 
+	background: url(images/templatemo_btn_01.jpg) no-repeat;
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+	margin-top: -7px;
+}
+
+#templatemo_container{
+	width: 960px;
+	margin: 0 auto;
+	padding: 0 10px;
+	background: #1c1c1b url(images/templatemo_bg.jpg) repeat-y;
+}
+
+
+/* menu */
+
+#templatemo_menu {
+	clear: both;
+	width: 960px;
+	height: 45px;
+	background: url(images/templatemo_menu_bg.jpg) no-repeat;
+}
+
+#templatemo_menu ul {
+	padding: 13px 0 0 0;
+	margin: 0;
+	list-style: none;
+}
+
+#templatemo_menu ul li{
+	display: inline;
+}
+
+#templatemo_menu ul li a{
+	float: left;
+	padding: 0 20px;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	color: #969547;
+}
+
+#templatemo_menu li a:hover, #templatemo_menu li .current{
+	color: #fcf88e;
+}
+
+/* end of menu*/
+
+/* header */
+#templatemo_header {
+	clear: both;
+	width: 960px;
+	height: 285px;
+	padding: 0;
+	margin: 0;
+	background: url(images/templatemo_header_bg.jpg) no-repeat;
+}
+
+#templatemo_header a,a:hover {
+	color: #ffffff;
+}
+
+#templatemo_header #templatemo_special_offers {
+	float: left;
+	font-size: 14px;	
+	margin-top: 95px;
+	margin-left: 490px;
+	width: 180px;
+}
+
+#templatemo_special_offers a {
+	font-size: 12px;
+}
+
+#templatemo_special_offers  p {
+	margin: 0 0 20px 0;
+}
+#templatemo_special_offers p span {
+	font-size: 18px;
+}
+
+#templatemo_header #templatemo_new_books {
+	float: left;
+	margin-top: 90px;	
+	margin-left: 55px;
+	width: 180px;
+}
+
+#templatemo_new_books ul {
+	 margin: 0 0 10px 0;
+	 padding: 0 0 0 20px;
+}
+
+#templatemo_new_books li {
+	 margin: 0;
+	 padding: 0; 
+}
+
+
+/* end of header */
+
+
+/* content */
+#templatemo_content {
+	clear: both;
+	width: 920px;
+	padding: 0 20px;
+}
+
+#templatemo_content #templatemo_content_left {
+	float: left;
+	width: 188px;
+	padding: 10px;
+	background-color: #171716;
+	border: 1px solid #212120;
+}
+
+#templatemo_content #templatemo_content_right {
+	float: right;
+	width: 670px;
+}
+
+
+#templatemo_content_left .templatemo_content_left_section{
+	clear: both;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #2b2b2a;
+	margin-bottom: 20px;
+}
+
+.templatemo_content_left_section h1 {
+	font-size: 14px;
+	color: #cbc750;
+	padding: 0 0 5px 0;
+	margin: 0 0 10px 0;
+	border-bottom: 1px dotted #cbc750;
+}
+
+.templatemo_content_left_section ul {
+	padding: 0;
+	margin: 0;
+}
+
+.templatemo_content_left_section ul li{
+	padding: 0 0 3px 10px;	
+	list-style: none;
+}
+
+.templatemo_content_left_section ul li a{
+	font-weight: normal;
+	text-decoration: none;
+	color: #969547;
+}
+
+.templatemo_content_left_section li a:hover, .templatemo_content_left_section li .current{
+	color: #fcf88e;
+}
+
+
+
+
+
+#templatemo_content_right .templatemo_product_box {
+	float: left;
+	width: 303px;
+	height: 210px;
+	padding: 10px;
+	border: 1px solid #333;
+}
+
+#templatemo_content_right h1 {
+	padding: 10px;
+	margin: 0 0 20px 0;
+	font-size: 15px;
+	color: #cbc750;
+	background: url(images/templatemo_h1_bg.jpg);
+}
+
+#templatemo_content_right h2 {
+	padding: 0 0 0 0;
+	margin: 0 0 20px 0;
+	font-size: 12px;
+	color: #e6e154;
+}
+
+#templatemo_content_right h3 {
+	padding: 0;
+	margin: 0 0 20px 0;
+	font-size: 18px;
+	color: #85391f;
+}
+
+#templatemo_content_right ul {
+	margin: 0 0 20px 0;
+	padding: 0 0 0 20px;
+	list-style: none;
+}
+
+#templatemo_content_right li {
+	padding: 0 0 3px 0;
+}
+
+#templatemo_content_right .image_panel {
+	float: left;
+	width: 100px;
+	margin-right: 20px;
+}
+
+#templatemo_content_right p {
+	text-align: justify;
+	padding: 0 0 8px 0;
+}
+
+.templatemo_product_box h1 span {
+	font-weight: normal;
+}
+
+.templatemo_product_box img {
+	float: left;
+	margin-right: 20px;
+}
+
+.templatemo_product_box .product_info {
+	float: left;
+	width: 180px;
+}
+
+.product_info p {
+	margin-bottom: 15px;
+}
+
+/* end of content */
+
+/* footer */
+#templatemo_footer {
+	clear: both;
+	width: 960px;
+	padding: 20px 0px 20px 0;
+	text-align: center;
+	border-top: 1px solid #25211e;
+	color: #999;
+	background-color: #111110;
+}
+
+#templatemo_footer a{
+	color: #fff;
+	font-weight: normal;
+}
+/* end of footer */
+
+/* Cuadro de Di‡logo */
+#mask {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 9000;
+	background-color: #000;
+	display: none;
+}
+
+#boxes .window {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 440px;
+	height: 240px;
+	display: none;
+	z-index: 9999;
+	padding: 20px;
+}
+
+#boxes #dialog1 {
+	width: 375px;
+	height: 203px;
+}
+
+#dialog1 .d-header input {
+	position: relative;
+	margin-left: 50px;
+	border: 2px solid #CCC;
+	height: 15px;
+	width: 120px;
+	font-size: 15px;
+	padding: 5px;
+	margin-top: 4px;
+	float: right;
+	margin-right: 45px;
+}
+
+#dialog1 .d-header button {
+	position: relative;
+	left: 110px;
+	border: 3px solid #cccccc;
+	height: 35px;
+	width: 120px;
+	font-size: 15px;
+	padding: 5px;
+	margin-top: 35px;
+}
+
+#dialog1 .d-header label {
+	border: 0px solid #CCC;
+	height: 15px;
+	font-size: 15px;
+	padding: 5px;
+	position: relative;
+	float: left;
+	margin-top: 4px;
+	margin-left: 25px;
+}
+
+#dialog1 .d-blank {
+	float: left;
+	background: white no-repeat 0 0 transparent;
+	width: 267px;
+	height: 53px;
+}
+
+#boxes #dialogEditorial {
+	width: 375px;
+	height: 203px;
+}
+
+#dialogEditorial .d-header input {
+	position: relative;
+	margin-left: 50px;
+	border: 2px solid #CCC;
+	height: 15px;
+	width: 120px;
+	font-size: 15px;
+	padding: 5px;
+	margin-top: 4px;
+	float: right;
+	margin-right: 45px;
+}
+
+#dialogEditorial .d-header button {
+    position: relative;
+    left: -30px;
+    border: 3px solid #cccccc;
+    height: 35px;
+    width: 140px;
+    font-size: 15px;
+    padding: 5px;
+    margin-top: 80px;
+}
+
+#dialogEditorial .d-header label {
+    border: 0px solid #CCC;
+    height: 0px;
+    font-size: 15px;
+    padding: 5px;
+    position: relative;
+    float: left;
+    margin-top: 6px;
+    margin-left: 25px;
+}
+
+#dialogEditorial .d-blank {
+	float: left;
+	background: white no-repeat 0 0 transparent;
+	width: 267px;
+	height: 53px;
+}
+
+.addLibroLeft{
+	float: left;
+	margin-left: 30px;
+}
+
+.addLibroRight label{
+	float: left;
+	margin-left: 70px;
+}
+
+.addLibroRight a{
+	float: left;
+	margin-left: 70px;
+}
+
+.addLibroRight input{
+	float: right;
+}
+
+.addLibroBoton{
+	position: absolute;
+	margin-top: 110px;
+	margin-left: 270px;
+}
+
+.contenedor{
+	margin-top: 50px;
+}
+
+#maskDos {
+	display: none;
+	background: #000;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 10;
+	width: 100%;
+	height: 100%;
+	opacity: 0.8;
+	z-index: 999;
+}
+
+/* You can customize to your needs  */
+.login-popup {
+	display: none;
+	background: #333;
+	padding: 10px;
+	border: 2px solid #ddd;
+	float: left;
+	font-size: 1.2em;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	z-index: 99999;
+	box-shadow: 0px 0px 20px #999; /* CSS3 */
+	-moz-box-shadow: 0px 0px 20px #999; /* Firefox */
+	-webkit-box-shadow: 0px 0px 20px #999; /* Safari, Chrome */
+	border-radius: 3px 3px 3px 3px;
+	-moz-border-radius: 3px; /* Firefox */
+	-webkit-border-radius: 3px; /* Safari, Chrome */
+}
+
+img.btn_close {Position the close button float:right;
+	margin: -28px -28px 0 0;
+}
+
+fieldset {
+	border: none;
+}
+
+form.signin .textbox label {
+	display: block;
+	padding-bottom: 7px;
+}
+
+form.signin .textbox span {
+	display: block;
+}
+
+form.signin p,form.signin span {
+	color: #999;
+	font-size: 11px;
+	line-height: 18px;
+}
+
+form.signin .textbox input {
+	background: #666666;
+	border-bottom: 1px solid #333;
+	border-left: 1px solid #000;
+	border-right: 1px solid #333;
+	border-top: 1px solid #000;
+	color: #fff;
+	border-radius: 3px 3px 3px 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	font: 13px Arial, Helvetica, sans-serif;
+	padding: 6px 6px 4px;
+	width: 200px;
+}
+
+form.signin input:-moz-placeholder {
+	color: #bbb;
+	text-shadow: 0 0 2px #000;
+}
+
+form.signin input::-webkit-input-placeholder {
+	color: #bbb;
+	text-shadow: 0 0 2px #000;
+}
+
+.button {
+	background: -moz-linear-gradient(center top, #f3f3f3, #dddddd);
+	background: -webkit-gradient(linear, left top, left bottom, from(#f3f3f3),
+		to(#dddddd) );
+	background: -o-linear-gradient(top, #f3f3f3, #dddddd);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#f3f3f3',
+		EndColorStr='#dddddd' );
+	border-color: #000;
+	border-width: 1px;
+	border-radius: 4px 4px 4px 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	color: #333;
+	cursor: pointer;
+	display: inline-block;
+	padding: 6px 6px 4px;
+	margin-top: 10px;
+	font: 12px;
+	width: 214px;
+}
+
+.button:hover {
+	background: #ddd;
+}
+
+.registrarUsuario{
+width: 200px;
+margin-left: 200px;
+margin-top: 40px;
+}
+
+.registrarUsuario label{
+	float: left;
+}
+
+.registrarUsuario button{
+	float: left;
+	margin-top: 25px;
+	margin-left: 80px;
+}
+
+.registrarUsuario input{
+	float: right;
+}
+
+.centrado{
+	text-align: center;
+}
